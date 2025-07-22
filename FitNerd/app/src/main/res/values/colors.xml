@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cinza">#858585</color>
+    <color name="marrom">#683829</color>
+    <color name="beje"> #D9AB91</color>
+    <color name="metalica">#3E4459</color>
+    <color name="azul_escuro">#0E1426</color>
+    <color name="branco">#FFFFFF</color>
+
+</resources>

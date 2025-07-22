@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/cinza">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/marrom"
+        android:text="Cadastro de Clientes"
+        android:textSize="35sp"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:src="@drawable/user"/>
+
+        <Button
+            android:id="@+id/btn_enviar_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar Foto"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/marrom"/>
+
+
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/branco"
+        android:text="Digite sua idade"
+        android:textColor="@color/branco"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/branco"
+        android:text="Digite seu email"
+        android:textColor="@color/branco"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/branco"
+        android:text="Digite sua senha"
+        android:textColor="@color/branco"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textSize="20sp"
+        android:textColor="@color/marrom"
+        android:layout_marginStart="15dp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rdb_masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino"
+            android:textSize="20sp"
+            android:textColor="@color/branco"/>
+
+        <RadioButton
+            android:id="@+id/rdb_feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino"
+            android:textSize="20sp"
+            android:textColor="@color/branco"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Serviços"
+        android:textColor="@color/marrom"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <CheckBox
+            android:id="@+id/ckb_musculacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Musculação"
+            android:textColor="@color/branco"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/ckb_natacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natação"
+            android:textColor="@color/branco"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/ckb_zumba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zumba"
+            android:textColor="@color/branco"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_receberEmail"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/marrom"
+        android:textStyle="bold"
+        android:text="Receber Email com novidades!"/>
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/marrom"/>
+
+</LinearLayout>
