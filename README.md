@@ -72,6 +72,28 @@ app/
 
 └── build.gradle
 
+
+🚀 Como Executar o Projeto
+1. Clone o repositório
+git clone https://github.com/seu-usuario/calculadora-area-circulo-kotlin.git
+
+
+2. Abra o projeto no Android Studio
+Vá em File > Open...
+
+Selecione a pasta do projeto clonado
+
+3. Execute o aplicativo
+Conecte um dispositivo físico ou inicie um emulador Android
+
+Clique no botão Run (ícone ▶️ ou Shift + F10)
+
+☑️ Requisitos:
+
+Android Studio instalado
+
+SDK configurado (API 21+ recomendada)
+
 👩‍💻 Desenvolvido por
 
 Maria Clara Ferreira Lopes
